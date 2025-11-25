@@ -8,7 +8,7 @@ import (
 
 func TestTimesNumbers(t *testing.T) {
 	got := times.Times(200, 150)
-	want := 300000
+	want := 30000
 
 	if got != want {
 		t.Errorf("got %d, want %d", got, want)
